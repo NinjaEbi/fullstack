@@ -1,0 +1,14 @@
+
+        *{
+            color: antiquewhite;
+        }
+        h1,h2{
+            color: rgb(100, 100, 78);
+        }
+        #a123{
+            color: cadetblue;
+        }
+        .alpha{
+            color: coral;
+        }
+
