@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+</head>
+<body>
+    <script>
+        alert("NIRAN clothing welcomes you")
+        var type=String(prompt("Enter your category"));
+        var a="men";
+        var b="women";
+        var c="kid"
+        if(type==a){
+            document.write("welcome to MEN shopping !!!","<br>")
+            var cloth=String(prompt("type of cloth"));
+            if(cloth=="shirt"){
+                 document.write("go to 4th floor e division !!!")
+            }
+            else if(cloth=="pant"){
+                 document.write("go to 4th floor n division !!!")
+            }
+            else{
+                document.write("go to 5th floor")
+            }
+        }
+        else if(type==b){
+             document.write("welcome to WOMEN shopping !!!","<br>")
+             var cloth=String(prompt("type of cloth"));
+             if(cloth=="saree"){
+                 document.write("go to 1th floor e division !!!")
+            }
+            else if(cloth=="top"){
+                 document.write("go to 1th floor n division !!!")
+            }
+            else{
+                document.write("go to 2th floor")
+            }
+        }
+        else{
+            document.write("welcome to KID shopping !!!","<br>")
+            var clothk=String(prompt("type of cloth"));
+            if(clothk=="tshirt"){
+                 document.write("go to 3th floor e division !!!")
+            }
+            else if(clothk=="trouser"){
+                 document.write("go to 1th floor n division !!!")
+            }
+            else{
+                document.write("go to 5th floor")
+            }
+        }
+    </script>
+</body>
+</html>
